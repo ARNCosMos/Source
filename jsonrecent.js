@@ -88,7 +88,7 @@ function labelthumbs(json) {
         }
         if (displaymore == true) {
             if (flag == 1) towrite = towrite + ' | ';
-            towrite = towrite + '<a href="' + posturl + '" class="url" target ="_top">More Â»</a>';
+            towrite = towrite + '<a href="' + posturl + '" class="url" target ="_top"><i>View details</i> »</a>';
             flag = 1;;
         }
         document.write(towrite);
