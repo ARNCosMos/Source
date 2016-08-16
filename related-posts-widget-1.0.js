@@ -76,7 +76,7 @@ function relatedPostsWidget(userOp){
 				};
 			};
 			//Add new post
-			ul.append('<li><a href="'+url+'" title="'+(op.relevantTip? op.relevantTip.replace('\d',1):'')+'">'+title+'</a></li>');
+			ul.append('<li><i class="fa fa-star"/> <a href="'+url+'" title="'+(op.relevantTip? op.relevantTip.replace('\d',1):'')+'">'+title+'</a></li>');
 		};
 		// parse score from attribute
 		var getScore = function(a){
